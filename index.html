@@ -5,11 +5,24 @@
 </script><style>img{
     width:300px;
     display: none;
+}
+
+.text{
+    display: none;
+}
+
+body{
+    background-color: green;
+}
+
+background-color{
+    display: none;
 }</style></head>
     <body>
     <h1>SOCCER</h1>
       <img src="https://media2.fdncms.com/eastbayexpress/imager/u/original/17703015/soccer-ball-ss-img.jpg">  
       <button class="soccer"> click here </button>
+      <p class="text">Now couble click me!</p>
       
     
 
@@ -17,4 +30,12 @@
 /*__POPCODESTART__*/
 $(".soccer").click(function(){
     $("img").show();
+});
+
+$("img").click(function(){
+    $(".text").show();
+});
+
+$(".text").click(function(){
+    $("background-color").show();
 });</script></body></html>
