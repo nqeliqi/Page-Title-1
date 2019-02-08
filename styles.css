@@ -2,3 +2,15 @@ img{
     width:300px;
     display: none;
 }
+
+.text{
+    display: none;
+}
+
+body{
+    background-color: green;
+}
+
+background-color{
+    display: none;
+}
